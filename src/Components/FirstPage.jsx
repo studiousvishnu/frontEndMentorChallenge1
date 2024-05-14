@@ -5,7 +5,7 @@ const FirstPage = () => {
       <div className="container  mt-2 mt-lg-5">
         <div className="img-container ">
           <img
-            src="./src/assets/Images/image-omelette.jpeg"
+            src="https://soumya190.github.io/Mobile-first-solution-using-CSS-Grid-and-Flexbox/image-omelette.jpg"
             className="rounded-4 w-full img-fluid"
             alt=""
           />
@@ -21,9 +21,15 @@ const FirstPage = () => {
           <div className="preparation-time p-3  rounded-3 background">
             <h5 className="preparation-heading fw-bold">Preparation Time</h5>
             <ul className="no-decoration">
-              <li className="ps-3"><span className="fw-bold">Total</span>:Approximately 10min</li>
-              <li className="ps-3"><span className="fw-bold">Preparation</span>:5min</li>
-              <li className="ps-3"><span className="fw-bold">Cooking</span>:5min</li>
+              <li className="ps-3">
+                <span className="fw-bold">Total</span>:Approximately 10min
+              </li>
+              <li className="ps-3">
+                <span className="fw-bold">Preparation</span>:5min
+              </li>
+              <li className="ps-3">
+                <span className="fw-bold">Cooking</span>:5min
+              </li>
             </ul>
           </div>
           <div className="Ingredients-container mt-3">
