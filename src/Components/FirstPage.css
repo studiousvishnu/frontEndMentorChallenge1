@@ -1,0 +1,43 @@
+ul.no-decoration,
+ul.instructions-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.no-decoration li::marker {
+  content: "•";
+  color: #7c4433;
+  margin-right: 5px;
+}
+.heading {
+  color: #7c4433;
+}
+
+.breaker {
+  height: 2px;
+  width: 100%;
+  background: rgb(204, 199, 199);
+}
+
+ul.instructions-list li {
+  counter-increment: instructions-counter;
+  margin-bottom: 5px;
+}
+
+ul.instructions-list li::before {
+  content: counter(instructions-counter) ". ";
+  font-weight: bold;
+  color: #7c4433;
+}
+
+ul.instructions-list li {
+  color: black;
+}
+
+.background{
+    background: #fff7fc;
+}
+
+.preparation-heading{
+    color:#775766;
+}
